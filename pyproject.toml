@@ -1,18 +1,12 @@
-[tool.poetry]
+[project]
 name = "kaggle-challenges"
 version = "0.1.0"
-description = ""
-authors = ["Pedro P Camellon <pedropcamellon@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-pandas = "^2.2.3"
-seaborn = "^0.13.2"
-ipykernel = "^6.29.5"
-scikit-learn = "^1.5.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "pandas>=2.3.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+]
