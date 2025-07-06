@@ -1,0 +1,4 @@
+titanic-survival/data/test_processed_*.csv
+titanic-survival/data/train_processed_*.csv
+titanic-survival/submission_*.csv
+titanic-survival/submission_*.csv
